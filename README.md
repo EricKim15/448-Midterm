@@ -24,9 +24,9 @@ Configuration Details: As this project runs in Google Colab using Python, before
 
 Project Structure Overview: 
 
-Data Collection: Collecting 100 fantasy football questions and responses from the 3 LLMS, creating 300 responses
-Data Preprocessing: We cleaned and tokenized the responses, converting words into numerical representations. Then, dividing the dataset into training, validation, and testing in a 60/20/20 split
-Model Implementation: We made CNN and LSTM models using PyTorch to try and identify patterns the responses to predict which LLM made created said response
-Model Training and Evaluation: We trained the models using labeled responses and graded the performances using accuracy, precision, recall, F1-score, and confusion matrices
-Input/Output Classifier: We finally compared the models’ classification performance and tried to find how much input only, output only, and input + output after the accuracy of the models
+- Data Collection: Collecting 100 fantasy football questions and responses from the 3 LLMS, creating 300 responses
+- Data Preprocessing: We cleaned and tokenized the responses, converting words into numerical representations. Then, dividing the dataset into training, validation, and testing in a 60/20/20 split
+- Model Implementation: We made CNN and LSTM models using PyTorch to try and identify patterns the responses to predict which LLM made created said response
+- Model Training and Evaluation: We trained the models using labeled responses and graded the performances using accuracy, precision, recall, F1-score, and confusion matrices
+- Input/Output Classifier: We finally compared the models’ classification performance and tried to find how much input only, output only, and input + output after the accuracy of the models
 
