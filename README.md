@@ -18,6 +18,5 @@ Installation Instructions:
    5. If necessary, update file path for the data set
    6. Run each cell to process the responses, train the classifier, and evaluate the ability to evaluate the AI based on the given response
 
-Usage Example: 
 
 Configuration Details: As this project runs in Google Colab using Python, before running the notebook, set the dataset’s file path and specify the columns containing the response text and AI system labels. Model settings, such as the training and testing split and random seed, should match those defined in the notebook.
